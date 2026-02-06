@@ -20,12 +20,8 @@ This profile applies all the recipes listed below and also manages license heade
     <recipe>org.openrewrite.java.format.NormalizeLineBreaks</recipe>
     <recipe>org.openrewrite.java.format.RemoveTrailingWhitespace</recipe>
     <recipe>org.openrewrite.java.migrate.UpgradeToJava21</recipe>
+    <recipe>org.openrewrite.java.migrate.RemoveSecurityManager</recipe>
     <recipe>org.openrewrite.java.migrate.util.JavaUtilAPIs</recipe>
-    <recipe>org.openrewrite.java.migrate.util.OptionalNotEmptyToIsPresent</recipe>
-    <recipe>org.openrewrite.java.migrate.util.OptionalNotPresentToIsEmpty</recipe>
-    <recipe>org.openrewrite.java.migrate.util.ReplaceStreamCollectWithToList</recipe>
-    <recipe>org.openrewrite.java.migrate.util.UseLocaleOf</recipe>
-    <recipe>org.openrewrite.java.migrate.util.UseMapOf</recipe>
     <recipe>org.openrewrite.java.OrderImports</recipe>
     <recipe>org.openrewrite.java.RemoveUnusedImports</recipe>
     <recipe>org.openrewrite.java.ShortenFullyQualifiedTypeReferences</recipe>
