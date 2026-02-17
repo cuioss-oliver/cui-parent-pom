@@ -15,7 +15,7 @@ maven-build:
 
 sonar:
   project-key: cuioss_cuioss-parent-pom
-  enabled: true
+  enabled: false
   skip-on-dependabot: true
 
 pages:
